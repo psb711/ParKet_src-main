@@ -12,15 +12,15 @@ let LpData = [
         woman_seat: 20,
 
         abbreviation_car: 20,
-        abbreviation_seat: 20, 
+        abbreviation_seat: 20,
 
         electric1: 6,
         electric2: 10,
         congestion: { src: process.env.PUBLIC_URL + "/img/여유.png", name: "밀집도" },
         congestion_font: '여유',
 
-        Remaining:5,
-       
+        Remaining: 5,
+
     },
 
     {
@@ -39,12 +39,12 @@ let LpData = [
         woman_seat: 5,
 
         abbreviation_car: 2,
-        abbreviation_seat: 10, 
+        abbreviation_seat: 10,
 
         congestion: { src: process.env.PUBLIC_URL + "/img/혼잡.png", name: "밀집도" },
         congestion_font: '혼잡',
 
-        Remaining:0,
+        Remaining: 0,
     },
 
     {
@@ -63,12 +63,12 @@ let LpData = [
         woman_seat: 10,
 
         abbreviation_car: 0,
-        abbreviation_seat: 10, 
+        abbreviation_seat: 10,
 
         congestion: { src: process.env.PUBLIC_URL + "/img/매우혼잡.png", name: "밀집도" },
         congestion_font: '매우 혼잡',
 
-        Remaining:16,
+        Remaining: 16,
     },
 
     {
@@ -87,12 +87,12 @@ let LpData = [
         woman_seat: 10,
 
         abbreviation_car: 5,
-        abbreviation_seat: 10, 
+        abbreviation_seat: 10,
 
         congestion: { src: process.env.PUBLIC_URL + "/img/매우혼잡.png", name: "밀집도" },
         congestion_font: '매우 혼잡',
 
-        Remaining:1,
+        Remaining: 1,
     },
 
     {
@@ -111,12 +111,12 @@ let LpData = [
         woman_seat: 15,
 
         abbreviation_car: 10,
-        abbreviation_seat: 10, 
+        abbreviation_seat: 10,
 
         congestion: { src: process.env.PUBLIC_URL + "/img/보통.png", name: "밀집도" },
         congestion_font: '보통',
 
-        Remaining:0,
+        Remaining: 0,
     },
 
     {
@@ -135,12 +135,12 @@ let LpData = [
         woman_seat: 15,
 
         abbreviation_car: 20,
-        abbreviation_seat: 20, 
+        abbreviation_seat: 20,
 
         congestion: { src: process.env.PUBLIC_URL + "/img/혼잡.png", name: "밀집도" },
         congestion_font: '혼잡',
 
-        Remaining:15,
+        Remaining: 15,
     },
     {
         id: 6,
@@ -149,131 +149,131 @@ let LpData = [
         address: '대전 중구 중앙로138번길 30',
 
 
-        Remaining:5,
+        Remaining: 5,
     },
-     {
+    {
         id: 7,
         title: '중앙시장 공영 주차빌딩',
         parking_spot: '공영',
         address: '대전 동구 중앙로200번길 70',
 
 
-        Remaining:4,
+        Remaining: 4,
     },
-     {
+    {
         id: 8,
         title: 'GT주차타워',
         parking_spot: '민영',
         address: '대전 유성구 온천북로33번길 21-21 GT타워',
 
 
-        Remaining:0,
+        Remaining: 0,
     },
-       {
+    {
         id: 9,
         title: '대전시립미술관',
         parking_spot: '공영',
         address: '대전 서구 둔산대로 155 대전시립미술관',
 
 
-        Remaining:9,
+        Remaining: 9,
     },
-       {
+    {
         id: 10,
         title: '광남주차장',
         parking_spot: '민영',
         address: '부산 강서구 공항진입로 36',
 
 
-        Remaining:19,
+        Remaining: 19,
     },
-        {
+    {
         id: 11,
         title: '오토파킹',
         parking_spot: '민영',
         address: '부산 강서구 공항앞길 14-5',
 
 
-        Remaining:0,
+        Remaining: 0,
     },
-        {
+    {
         id: 12,
         title: '김해공항 가람주차장',
         parking_spot: '민영',
         address: '부산 강서구 공항앞길85번길 81',
 
 
-        Remaining:6,
+        Remaining: 6,
     },
-           {
+    {
         id: 13,
         title: '경남주차장',
         parking_spot: '민영',
         address: '서울 마포구 양화로 129 경남주차',
 
 
-        Remaining:6,
+        Remaining: 6,
     },
-           {
+    {
         id: 14,
         title: '아시아공원공영주차장',
         parking_spot: '공영',
         address: '서울 송파구 올림픽로 44',
 
 
-        Remaining:20,
+        Remaining: 20,
     },
 
-           {
+    {
         id: 15,
         title: '더반스주차장',
         parking_spot: '민영',
         address: '서울 강남구 신사동 655-17',
 
 
-        Remaining:0,
+        Remaining: 0,
     },
 
-             {
+    {
         id: 16,
         title: '양재공영',
         parking_spot: '공영',
         address: '서울 서초구 양재천로 125-10 ',
 
 
-        Remaining:52,
+        Remaining: 52,
     },
 
-             {
+    {
         id: 17,
         title: '도화',
         parking_spot: '공영',
         address: '서울 마포구 도화길 37 도화동주민센타',
 
 
-        Remaining:0,
+        Remaining: 0,
     },
 
-             {
+    {
         id: 18,
         title: '잠실역',
         parking_spot: '공영',
         address: '서울 송파구 올림픽로 300',
 
 
-        Remaining:21,
+        Remaining: 21,
     },
 
-             {
+    {
         id: 19,
         title: '금융연수원',
         parking_spot: '민영',
         address: '서울 종로구 삼청로 118',
 
 
-        Remaining:4,
+        Remaining: 4,
     },
-    
+
 
 ];
 
