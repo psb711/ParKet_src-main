@@ -33,7 +33,7 @@ export default function CommuterPass(props) {
   const later = formatDate(twoLater);
   const endlater = formatMonthDate(sevenLater);
 
-  const { LpData } = props
+  const { LpData2 } = props
 
   const [searchType, setSearchType] = useState('parking');
   const [searchText, setSearchText] = useState('');
@@ -45,7 +45,7 @@ export default function CommuterPass(props) {
   const itemsPerPage = 10;
 
   // 필터링된 데이터
-  const filteredData = LpData.filter(product => {
+  const filteredData = LpData2.filter(product => {
     if (searchText === '') return true;
 
     if (searchType === 'address') {
