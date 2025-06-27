@@ -142,8 +142,21 @@ export default function CommuterPass(props) {
                   <td>{product.Remaining === 0 ? '마감' : '접수중'}</td>
                   <td>{product.Remaining}</td>
                   <td>{later} ~ {endlater}</td>
-                  <td><Button className='DBTN' style={{ height: '27px', width: '58px', fontSize: '12px' }}   onClick={(e) => e.currentTarget.blur()}
->신청하기</Button></td>
+                  <td><Button
+  className="DBTN"
+  style={{ height: '27px', width: '58px', fontSize: '12px' }}
+  onClick={(e) => {
+    e.currentTarget.blur(); // 포커스 제거
+    if (product.Remaining === 0) {
+      alert('마감되었습니다');
+    } else {
+      // 여기에 신청 처리 로직 넣으면 됨
+      console.log('정상 신청 진행');
+    }
+  }}
+>
+  신청하기
+</Button></td>
                 </tr>
               ))}
    

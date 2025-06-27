@@ -1,0 +1,45 @@
+.Paymentdetail{
+ .minibanner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ConT {
+    display: flex
+;
+}
+.left {
+    display: flex
+;
+    flex-direction: column;
+    margin-right: 50px;
+    .button {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+}
+.BTN1 {
+    background-color: #14C6A4;
+    color: #ffffff;
+    border-radius: 40px 10px 0 0;
+}
+.btn-primary {
+    --bs-btn-active-bg: #14C6A4;
+}
+.BTN2 {
+    background-color: #c4f2e8;
+    color: #666666;
+}
+.right {
+    text-align: center;
+     h4 {
+    font-size: 32px;
+}
+}
+ul {
+    text-align: left;
+    margin-top: 30px;
+    font-size: 12px;
+}
+}

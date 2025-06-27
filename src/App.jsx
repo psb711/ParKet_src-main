@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Payment from './components/Payment';
 import CommuterPass from './components/CommuterPass';
 import LpData from './data/Lp_data';
+import Paymentdetail from './components/Paymentdetail';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
       <LiveParking />
       <Bannerslide />
       <Notice /> */}
-      <CommuterPass   LpData={LpData}/>
+      {/* <CommuterPass   LpData={LpData}/> */}
+      <Paymentdetail />
       <Footer />
       
     </div>
